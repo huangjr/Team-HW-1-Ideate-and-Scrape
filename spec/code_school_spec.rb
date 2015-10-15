@@ -5,14 +5,14 @@ require 'webmock/minitest'
 require_relative '../lib/scrape'
 
 VCR.configure do |config|
-    config.cassette_library_dir = 'fixtures/vcr/cassettes'
+    config.cassette_library_dir = './spec/fixtures/vcr/cassettes'
     config.hook_into :webmock
 end
 
 VCR.use_cassette('codeschool') do
   
   codeschool = SiteScraper.new.code_school_data
-  golden     = File.read('fixtures/output.json')
+  golden     = File.read('./spec/fixtures/output.json')
   
   describe 'test for code school' do
     it 'has same length' do

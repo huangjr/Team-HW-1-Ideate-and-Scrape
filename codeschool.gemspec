@@ -15,9 +15,9 @@ Gem::Specification.new do |s|
   s.homepage    =  'https://github.com/SOAupstart2/Team-HW-1-Ideate-and-Scrape'
   s.license     =  'MIT'
 
-  s.add_development_dependency 'minitest','~>0'
-  s.add_development_dependency 'minitest-rg','~>0'
-  s.add_development_dependency 'vcr','~>0'
-  s.add_development_dependency 'webmock','~>0'
+  s.add_development_dependency 'minitest'
+  s.add_development_dependency 'minitest-rg'
+  s.add_development_dependency 'vcr'
+  s.add_development_dependency 'webmock'
   s.add_runtime_dependency 'nokogiri'
 end

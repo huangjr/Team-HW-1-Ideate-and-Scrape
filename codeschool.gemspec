@@ -19,5 +19,5 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'minitest-rg','~>0'
   s.add_development_dependency 'vcr','~>0'
   s.add_development_dependency 'webmock','~>0'
-  s.add_runtime_dependency 'nokogiri','~>0'
+  s.add_runtime_dependency 'nokogiri'
 end

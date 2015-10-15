@@ -16,10 +16,10 @@ VCR.use_cassette('codeschool') do
   
   describe 'test for code school' do
     it 'has same length' do
-      codeschool.size.must_equal output.chomp.length
+      codeschool.size.must_equal golden.chomp.length
     end
     it 'should be same' do
-      JSON.parse(codeschool).must_equal JSON.parse(output)
+      JSON.parse(codeschool).must_equal JSON.parse(golden)
     end
   end
 end

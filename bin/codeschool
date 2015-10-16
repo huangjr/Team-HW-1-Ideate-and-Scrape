@@ -1,3 +1,4 @@
+#!/usr/bin/env ruby
 require_relative '../lib/scrape'
 
 code_school = SiteScraper.new

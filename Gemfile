@@ -1,6 +1,13 @@
 source 'https://rubygems.org'
-ruby '2.2.1'
+
+gemspec
 
 gem 'nokogiri'
-gem 'minitest'
-gem 'minitest-rg'
+
+group :test do
+  gem 'rake'
+  gem 'vcr'
+  gem 'webmock'
+  gem 'minitest'
+  gem 'minitest-rg'
+end

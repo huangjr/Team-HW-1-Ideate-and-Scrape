@@ -7,9 +7,9 @@ Gem::Specification.new do |s|
   s.date        =  CodeSchool::DATE
   s.executables << 'codeschool'
   s.summary     =  'Access teacher and course information on CodeSchool'
-  s.description =  '????????????'
+  s.description =  'show course and teacher on codeschool'
   s.authors     =  ['stozuka', 'stonegold546','huangjr','pengyuchen']
-  s.email       =  ['','','jr@nlplab.cc', 'pengyu@gmail.com']
+  s.email       =  ['stozuka@gmail.com','stozuka@gmail.com','jr@nlplab.cc', 'pengyu@gmail.com']
   s.files       =  `git ls-files`.split("\n")
   s.test_files  =  `git ls-files spec/*`.split("\n")
   s.homepage    =  'https://github.com/SOAupstart2/Team-HW-1-Ideate-and-Scrape'

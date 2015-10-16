@@ -2,7 +2,7 @@ $LOAD_PATH.push File.expand_path('../lib', __FILE__)
 require 'version'
 
 Gem::Specification.new do |s|
-  s.name        =  'codeschool'
+  s.name        =  'soa_codeschool'
   s.version     =  CodeSchool::VERSION
   s.date        =  CodeSchool::DATE
   s.executables << 'codeschool'

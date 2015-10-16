@@ -1,5 +1,5 @@
-task :default => [:spec]
+task default: [:spec]
 
 task :spec do
-    sh "ruby spec/*_spec.rb"
+  sh 'ruby spec/*_spec.rb'
 end

@@ -1,0 +1,13 @@
+language: ruby
+rvm:
+  - ruby-head
+  - 1.9.3
+  - 2.1.0
+  - jruby-19mode # JRuby in 1.9 mode
+  - jruby-head
+
+branches:
+  only:
+    - master
+    - /^release-.*$/
+    

@@ -10,5 +10,6 @@ rvm:
 branches:
   only:
     - master
+    - combine
     - /^release-.*$/
     
